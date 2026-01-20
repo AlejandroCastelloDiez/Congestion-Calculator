@@ -1,0 +1,27 @@
+name: Check API key is accessible
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run check
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          python check_api_key.py
