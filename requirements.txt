@@ -1,0 +1,8 @@
+requests>=2.31
+pandas>=2.1
+openpyxl>=3.1
+pypdf>=4.0
+matplotlib>=3.8
+geopandas>=0.14
+pyogrio>=0.9
+shapely>=2.0
