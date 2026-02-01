@@ -1,0 +1,50 @@
+name: Curtailment map
+
+on:
+  schedule:
+    - cron: "10 7 15 * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Congestion-Calculator
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Compute year/month (previous month)
+        id: ym
+        run: |
+          TZ=Europe/Madrid
+          YEAR=$(date -d "$(date +%Y-%m-15) -1 month" +%Y)
+          MONTH=$(date -d "$(date +%Y-%m-15) -1 month" +%m)
+          echo "year=$YEAR" >> "$GITHUB_OUTPUT"
+          echo "month=$MONTH" >> "$GITHUB_OUTPUT"
+
+      - name: Run script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          python curtailmentmap.py --year ${{ steps.ym.outputs.year }} --month ${{ steps.ym.outputs.month }}
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add outputs || true
+          git commit -m "Update curtailment outputs (${{ steps.ym.outputs.year }}-${{ steps.ym.outputs.month }})" || exit 0
+          git push
