@@ -37,8 +37,8 @@ jobs:
         id: ym
         run: |
           TZ=Europe/Madrid
-          YEAR=$(date -d "$(date +%Y-%m-15) -1 month" +%Y)
-          MONTH=$(date -d "$(date +%Y-%m-15) -1 month" +%m)
+          YEAR=$(date -d "$(date +%Y-%m-15) -2 month" +%Y)
+          MONTH=$(date -d "$(date +%Y-%m-15) -2 month" +%m)
           echo "year=$YEAR" >> "$GITHUB_OUTPUT"
           echo "month=$MONTH" >> "$GITHUB_OUTPUT"
 
