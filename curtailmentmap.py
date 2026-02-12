@@ -815,8 +815,8 @@ def plot_two_province_heatmaps_from_json(
 
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-    nire_png = out_dir / f"heatmap_{snapshot_key}_nire.png" if save_png else None
-    curt_png = out_dir / f"heatmap_{snapshot_key}_curtailment.png" if save_png else None
+    nire_png = out_dir / f"heatmap_nire.png" if save_png else None
+    curt_png = out_dir / f"heatmap_curtailment.png" if save_png else None
 
     plot_heatmap(
         merged,
