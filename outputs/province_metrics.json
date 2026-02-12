@@ -312,5 +312,71 @@
       "% NIRE over Peninsula PDBF (Province)": 0.003,
       "Curtailment Ratio (Province)": 0.38
     }
+  },
+  "2026-01": {
+    "Lugo": {
+      "% NIRE over Peninsula PDBF (Province)": 0.37,
+      "Curtailment Ratio (Province)": 8.8
+    },
+    "Almeria": {
+      "% NIRE over Peninsula PDBF (Province)": 0.14,
+      "Curtailment Ratio (Province)": 35.87
+    },
+    "Albacete": {
+      "% NIRE over Peninsula PDBF (Province)": 0.1,
+      "Curtailment Ratio (Province)": 2.22
+    },
+    "Zaragoza": {
+      "% NIRE over Peninsula PDBF (Province)": 0.06,
+      "Curtailment Ratio (Province)": 1.58
+    },
+    "Murcia": {
+      "% NIRE over Peninsula PDBF (Province)": 0.04,
+      "Curtailment Ratio (Province)": 4.9
+    },
+    "Cuenca": {
+      "% NIRE over Peninsula PDBF (Province)": 0.03,
+      "Curtailment Ratio (Province)": 1.29
+    },
+    "Burgos": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 2.39
+    },
+    "Badajoz": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 4.71
+    },
+    "Navarre": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 2.42
+    },
+    "Soria": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 1.11
+    },
+    "Teruel": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 1.76
+    },
+    "Navarra": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 1.67
+    },
+    "Valencia": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 1.57
+    },
+    "Caceres": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 3.4
+    },
+    "La Rioja": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 1.8
+    },
+    "Huesca": {
+      "% NIRE over Peninsula PDBF (Province)": 0.0,
+      "Curtailment Ratio (Province)": 0.63
+    }
   }
 }
