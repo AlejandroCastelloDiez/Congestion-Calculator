@@ -378,5 +378,51 @@
       "% NIRE over Peninsula PDBF (Province)": 0.0,
       "Curtailment Ratio (Province)": 0.63
     }
+  },
+  "2026-02": {
+    "Lugo": {
+      "% NIRE over Peninsula PDBF (Province)": 0.14,
+      "Curtailment Ratio (Province)": 3.77
+    },
+    "Badajoz": {
+      "% NIRE over Peninsula PDBF (Province)": 0.11,
+      "Curtailment Ratio (Province)": 3.47
+    },
+    "Zaragoza": {
+      "% NIRE over Peninsula PDBF (Province)": 0.1,
+      "Curtailment Ratio (Province)": 2.65
+    },
+    "Almeria": {
+      "% NIRE over Peninsula PDBF (Province)": 0.09,
+      "Curtailment Ratio (Province)": 24.47
+    },
+    "Albacete": {
+      "% NIRE over Peninsula PDBF (Province)": 0.05,
+      "Curtailment Ratio (Province)": 1.16
+    },
+    "Teruel": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 1.81
+    },
+    "Cadiz": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 1.96
+    },
+    "Toledo": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 1.51
+    },
+    "Murcia": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 2.66
+    },
+    "Soria": {
+      "% NIRE over Peninsula PDBF (Province)": 0.0,
+      "Curtailment Ratio (Province)": 0.6
+    },
+    "Valencia": {
+      "% NIRE over Peninsula PDBF (Province)": 0.0,
+      "Curtailment Ratio (Province)": 0.21
+    }
   }
 }
