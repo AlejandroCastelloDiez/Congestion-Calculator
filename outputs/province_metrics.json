@@ -424,5 +424,51 @@
       "% NIRE over Peninsula PDBF (Province)": 0.0,
       "Curtailment Ratio (Province)": 0.21
     }
+  },
+  "2026-03": {
+    "Badajoz": {
+      "% NIRE over Peninsula PDBF (Province)": 0.27,
+      "Curtailment Ratio (Province)": 5.29
+    },
+    "Zaragoza": {
+      "% NIRE over Peninsula PDBF (Province)": 0.17,
+      "Curtailment Ratio (Province)": 3.08
+    },
+    "Almeria": {
+      "% NIRE over Peninsula PDBF (Province)": 0.16,
+      "Curtailment Ratio (Province)": 32.0
+    },
+    "Ciudad Real": {
+      "% NIRE over Peninsula PDBF (Province)": 0.15,
+      "Curtailment Ratio (Province)": 7.2
+    },
+    "Toledo": {
+      "% NIRE over Peninsula PDBF (Province)": 0.08,
+      "Curtailment Ratio (Province)": 7.37
+    },
+    "Segovia": {
+      "% NIRE over Peninsula PDBF (Province)": 0.03,
+      "Curtailment Ratio (Province)": 3.0
+    },
+    "A Coruna": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 3.89
+    },
+    "La Rioja": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 5.99
+    },
+    "Soria": {
+      "% NIRE over Peninsula PDBF (Province)": 0.02,
+      "Curtailment Ratio (Province)": 2.44
+    },
+    "Burgos": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 1.1
+    },
+    "Caceres": {
+      "% NIRE over Peninsula PDBF (Province)": 0.01,
+      "Curtailment Ratio (Province)": 6.05
+    }
   }
 }
